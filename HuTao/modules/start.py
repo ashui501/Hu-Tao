@@ -59,7 +59,7 @@ keyboard = InlineKeyboardMarkup(
 async def start(_, message: Message):
     if message.chat.type.value != "private":
         return await message.reply_photo(
-            photo="https://graph.org//file/de94bb9e07ec7bd86123d.jpg",
+            photo="https://te.legra.ph/file/b766e6857a5d0af2fd864.jpg",
             caption="With every step I do ,i use my chakras to protect ur group from enemy's.",
             reply_markup=keyboard,
         )
