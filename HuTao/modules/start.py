@@ -21,11 +21,11 @@ from HuTao.modules.notes import note_redirect
 PM_TEXT = f"""
 **────「 {BOT_NAME} 」────
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-¤ I'M HERE! IF YOU NEED SOME ASSISTANCE, I'M HERE TO GIVE IT MY ALL TO THE VERY END!
+¤ I'M HERE! IF YOU NEED SOME ASSISTANCE, I'M HERE TO GIVE IT MY ALL TO THE VERY END I AM Minato im fourth hokage and im yellow leaf flash of village!
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 ♦ VERSION: {Hutao_Ver}
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-⍟ GET TO KNOW ABOUT MY SKILLS BY CLICKING HELP**
+⍟ GET TO KNOW ABOUT MY Justus BY CLICKING HELP**
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -36,8 +36,8 @@ home_keyboard_pm = InlineKeyboardMarkup(
             InlineKeyboardButton(text="ADD ME",url=f"http://t.me/{BOT_USERNAME}?startgroup=new")
         ],
         [
-            InlineKeyboardButton(text="DEVELOPER", url="https://t.me/KIRITO1240"),
-            InlineKeyboardButton(text="SOURCE",url="https://t.me/NovaNetworks"),
+            InlineKeyboardButton(text="DEVELOPER", url="https://t.me/uchiha_itachi_god_akatuski"),
+            InlineKeyboardButton(text="SOURCE",url="https://t.me/uchiha_clanu"),
         ],
         [
             InlineKeyboardButton(text="HELP", callback_data="help_commands")           
@@ -60,7 +60,7 @@ async def start(_, message: Message):
     if message.chat.type.value != "private":
         return await message.reply_photo(
             photo="https://graph.org//file/de94bb9e07ec7bd86123d.jpg",
-            caption="With every step I take, I leave a trail of ashes and memories.",
+            caption="With every step I do ,i use my chakras to protect ur group from enemy's.",
             reply_markup=keyboard,
         )
     if len(message.text.split()) > 1:
