@@ -59,7 +59,7 @@ keyboard = InlineKeyboardMarkup(
 async def start(_, message: Message):
     if message.chat.type.value != "private":
         return await message.reply_photo(
-            photo="https://te.legra.ph/file/b766e6857a5d0af2fd864.jpg",
+            photo="https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",
             caption="With every step I do ,i use my chakras to protect ur group from enemy's.",
             reply_markup=keyboard,
         )
@@ -71,13 +71,13 @@ async def start(_, message: Message):
                 "**⍟ HELP FOR: {mod}**\n".format(mod=HELPABLE[module].__mod__)
                 + HELPABLE[module].__help__
             )
-            await message.reply_photo("https://graph.org//file/9e756c52fdd881b44ecc8.png",caption=text, reply_markup=InlineKeyboardMarkup(
+            await message.reply_photo("https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",caption=text, reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("BACK", callback_data="help_back")]]
             ))
         if name == "help":
             text, keyb = await help_parser(BOT_NAME)
             await message.reply_photo(
-                "https://graph.org//file/9e756c52fdd881b44ecc8.png",
+                "https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",
                 caption=text,
                 reply_markup=keyb,
             )
@@ -85,7 +85,7 @@ async def start(_, message: Message):
             await note_redirect(message)
     else:
         await message.reply_photo(
-            photo="https://graph.org//file/2bba048fefef637247d6a.png",
+            photo="https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",
             caption=PM_TEXT,
             reply_markup=home_keyboard_pm,
         )
@@ -127,14 +127,14 @@ async def help_command(_, message: Message):
         else:
             text, help_keyboard = await help_parser(message.from_user.first_name)
             await message.reply_photo(
-                "https://graph.org//file/9e756c52fdd881b44ecc8.png",
+                "https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",
                 caption=text,
                 reply_markup=help_keyboard
             )
     else:
         text, help_keyboard = await help_parser(message.from_user.first_name)
         await message.reply_photo(
-            "https://graph.org//file/9e756c52fdd881b44ecc8.png",
+            "https://telegra.ph/file/59d9b05eaee72cd9e7330.jpg",
             caption=text, reply_markup=help_keyboard
         )
 
