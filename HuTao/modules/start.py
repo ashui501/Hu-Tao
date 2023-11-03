@@ -21,11 +21,11 @@ from HuTao.modules.notes import note_redirect
 PM_TEXT = f"""
 **────「 {BOT_NAME} 」────
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-¤ I'M HERE! IF YOU NEED SOME ASSISTANCE, I'M HERE TO GIVE IT MY ALL TO THE VERY END I AM Minato im fourth hokage and im yellow leaf flash of village!
+¤ Hi im minato namikaze the fourh hokage, and yellow leaf flash Im here to protect ur group and channels from enemies!
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
 ♦ VERSION: {Hutao_Ver}
 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
-⍟ GET TO KNOW ABOUT MY Justus BY CLICKING HELP**
+⍟ wanna know my power Justus BY CLICKING HELP**
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
