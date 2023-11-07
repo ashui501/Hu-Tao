@@ -9,7 +9,7 @@ async def botstats(_, message):
     NUM_CHATS = await chats.count_documents({})
     NUM_USERS = await users.count_documents({})
     await message.reply_text(f"""
-**HUTAO STATS:**
+**𝐌𝐈𝐍𝐀𝐓𝐎 𝐒𝐓𝐀𝐓𝐒:**
 
 **TOTAL USERS:** {NUM_USERS}
 **TOTAL CHATS:** {NUM_CHATS}
