@@ -13,7 +13,7 @@ from HuTao.Config import COMMAND_HANDLER
 async def ping(_, message):
     currentTime = get_readable_time(time.time() - start)
     start_t = time.time()
-    rm = await message.reply_photo("https://graph.org//file/6ede45ee5dd3ecfc7314e.jpg", caption="Pong..")
+    rm = await message.reply_photo("https://te.legra.ph/file/8ea8f7717f73c31224d09.jpg", caption="Pong..")
     end_t = time.time()
     time_taken_s = round(end_t - start_t, 3)
     await rm.edit_caption(
